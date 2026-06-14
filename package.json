@@ -1,0 +1,16 @@
+{
+  "name": "ratelimit-mini",
+  "version": "1.0.0",
+  "description": "Zero-dep rate limiting with token bucket, fixed window, sliding window, and leaky bucket algorithms",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "ratelimit": "cli.js"
+  },
+  "scripts": {
+    "test": "node --test test.js"
+  },
+  "keywords": ["rate-limit", "throttle", "token-bucket", "sliding-window", "leaky-bucket", "zero-dependencies"],
+  "license": "MIT",
+  "author": "sulthonzh"
+}
