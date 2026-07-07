@@ -10,7 +10,20 @@
   "scripts": {
     "test": "node --test test.js"
   },
-  "keywords": ["rate-limit", "throttle", "token-bucket", "sliding-window", "leaky-bucket", "zero-dependencies"],
+  "keywords": [
+    "rate-limit",
+    "throttle",
+    "token-bucket",
+    "sliding-window",
+    "leaky-bucket",
+    "zero-dependencies"
+  ],
   "license": "MIT",
-  "author": "sulthonzh"
+  "author": "sulthonzh",
+  "files": [
+    "index.js",
+    "cli.js",
+    "README.md",
+    "LICENSE"
+  ]
 }
